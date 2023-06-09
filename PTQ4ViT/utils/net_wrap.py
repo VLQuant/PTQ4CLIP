@@ -1,7 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.models import MatMul
+import sys
+sys.path.append("/home/subuntu/sunde/Desktop/DL-Project/PTQ4ViT/utils")
+print(sys.path)
+from models import MatMul
 import re
 
 
