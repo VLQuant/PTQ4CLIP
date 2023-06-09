@@ -1,3 +1,6 @@
 [submodule "PTQ4ViT"]
 	path = PTQ4ViT
 	url = git@github.com:hahnyuan/PTQ4ViT.git
+[submodule "CLIP"]
+	path = CLIP
+	url = git@github.com:openai/CLIP.git
