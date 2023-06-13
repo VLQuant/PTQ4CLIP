@@ -114,12 +114,7 @@ if __name__=='__main__':
     nets = ['vit_tiny_patch16_224', "deit_base_patch16_384"]
     configs= ['PTQ4ViT']
 
-    cfg_list = [{
-        "net":net,
-        "config":config,
-        }
-        for net, config in product(nets, configs) 
-    ]
+    cfg_list = [{ "net":net, "config":config,} for net, config in product(nets, configs) ]
 
     if args.multiprocess:
         multiprocess(experiment_basic, cfg_list, n_gpu=args.n_gpu)

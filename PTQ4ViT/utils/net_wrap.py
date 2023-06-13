@@ -42,7 +42,7 @@ def fold_bn_into_conv(conv_module, bn_module):
 def wrap_modules_in_net(net,cfg):
     wrapped_modules={}
     module_dict={}
-    module_types = {"qkv":"qlinear_qkv", "proj":'qlinear_proj', 'fc1':'qlinear_MLP_1', 'fc2':"qlinear_MLP_2", 'head':'qlinear_classifier','matmul1':"qmatmul_qk", 'matmul2':"qmatmul_scorev", "reduction": "qlinear_reduction"}
+    module_types = {"qkv":"qlinear_qkv", "out_proj":'qlinear_proj', 'c_fc':'qlinear_MLP_1', 'c_proj':"qlinear_MLP_2", 'head':'qlinear_classifier','matmul1':"qmatmul_qk", 'matmul2':"qmatmul_scorev", "reduction": "qlinear_reduction"}
     
     it=[(name,m) for name,m in net.named_modules()]
     for name,m in it:
@@ -67,6 +67,7 @@ def wrap_modules_in_net(net,cfg):
         elif isinstance(m,nn.Linear):
             # Linear Layer
             idx = idx+1 if idx != 0 else idx
+            print(name[idx:])
             new_m = cfg.get_module(module_types[name[idx:]],m.in_features,m.out_features)
             new_m.weight.data=m.weight.data
             new_m.bias=m.bias

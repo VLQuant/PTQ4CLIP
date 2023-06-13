@@ -128,7 +128,7 @@ class QuantCalibrator():
                 hooks.append(module.register_forward_hook(matmul_forward_hook))
             
             # feed in calibration data, and store the data
-            for inp, target in self.calib_loader:
+            for (inp_image, inp_text), target in self.calib_loader:
                 for batch_st in range(0,self.calib_loader.batch_size,self.batch_size):
                     self.net.zero_grad()
                     inp_ = inp[batch_st:batch_st+self.batch_size].cuda()

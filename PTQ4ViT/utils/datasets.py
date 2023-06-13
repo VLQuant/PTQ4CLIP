@@ -223,13 +223,13 @@ class ImageNetLoaderGenerator(LoaderGenerator):
     @property
     def train_set(self):
         if self._train_set is None:
-            self._train_set=ImageFolder(os.path.join(self.root,'train'), self.train_transform)
+            self._train_set=ImageFolder(self.root+"/train", self.train_transform)
         return self._train_set
 
     @property
     def test_set(self):
         if self._test_set is None:
-            self._test_set=ImageFolder(os.path.join(self.root,'val'), self.test_transform)
+            self._test_set=ImageFolder(self.root+ "/test", self.test_transform)
         return self._test_set
 
 class CacheDataset(Dataset):
