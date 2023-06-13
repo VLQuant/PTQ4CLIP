@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import sys
-sys.path.append("/home/subuntu/sunde/Desktop/DL-Project/PTQ4ViT/utils")
+sys.path.append("./PTQ4ViT/utils")
 print(sys.path)
 from models import MatMul
 import re

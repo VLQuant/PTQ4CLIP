@@ -308,8 +308,9 @@ class HessianQuantCalibrator(QuantCalibrator):
 
         # get raw_pred as target distribution 
         with torch.no_grad():
-            for inp, _ in self.calib_loader:
-                raw_pred = self.net(inp.cuda())
+            for i, (inp_images, inp_text, target) in enumerate(self.calib_loader):
+                print((inp_images, inp_text, target) )
+                raw_pred , _ = self.net(inp_images, inp_text)
                 raw_pred_softmax = F.softmax(raw_pred, dim=-1).detach()
             torch.cuda.empty_cache()
 
