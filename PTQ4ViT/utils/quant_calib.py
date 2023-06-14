@@ -128,7 +128,7 @@ class QuantCalibrator():
                 hooks.append(module.register_forward_hook(matmul_forward_hook))
             
             # feed in calibration data, and store the data
-            for (inp_image, inp_text), target in self.calib_loader:
+            for (inp_image, inp_text, target) in self.calib_loader:
                 for batch_st in range(0,self.calib_loader.batch_size,self.batch_size):
                     self.net.zero_grad()
                     inp_ = inp[batch_st:batch_st+self.batch_size].cuda()
@@ -228,8 +228,8 @@ class HessianQuantCalibrator(QuantCalibrator):
 
         # get raw_pred as target distribution 
         with torch.no_grad():
-            for inp, _ in self.calib_loader:
-                raw_pred = self.net(inp.cuda())
+            for inp_image, inp_text, targets in self.calib_loader:
+                raw_pred,_ = self.net(inp_image.cuda(),inp_text.cuda())
                 raw_pred_softmax = F.softmax(raw_pred, dim=-1).detach()
             torch.cuda.empty_cache()
 
@@ -256,7 +256,7 @@ class HessianQuantCalibrator(QuantCalibrator):
                     self.net.zero_grad()
                     inp_ = inp[batch_st:batch_st+self.batch_size].cuda()
                     pred = self.net(inp_)
-                    loss = F.kl_div(F.log_softmax(pred, dim=-1), raw_pred_softmax[batch_st:batch_st+self.batch_size], reduction="batchmean")
+                    loss = F.kl_div(F.log_softmax(pred, dim=-1).sort(descending=True).values[0:4], raw_pred_softmax[batch_st:batch_st+self.batch_size], reduction="batchmean")
                     loss.backward()
                 del inp, target, pred, loss
                 torch.cuda.empty_cache()
@@ -309,14 +309,16 @@ class HessianQuantCalibrator(QuantCalibrator):
         # get raw_pred as target distribution 
         with torch.no_grad():
             for i, (inp_images, inp_text, target) in enumerate(self.calib_loader):
-                print((inp_images, inp_text, target) )
+                #print(inp_images.shape,inp_text.shape,target.shape)
                 raw_pred , _ = self.net(inp_images, inp_text)
                 raw_pred_softmax = F.softmax(raw_pred, dim=-1).detach()
+                #print("raw_pred_softmax", raw_pred_softmax.shape)
             torch.cuda.empty_cache()
 
         # assume wrapped modules are in order (true for dict in python>=3.5)
         q = tqdm(self.wrapped_modules.items(), desc="Hessian")
         for name, module in q:
+            print(name, module)
             q.set_postfix_str(name)
 
             # add fp and bp hooks to current modules, which bypass calibration step 1
@@ -332,18 +334,26 @@ class HessianQuantCalibrator(QuantCalibrator):
                 hooks.append(module.register_backward_hook(grad_hook))
             
             # feed in calibration data, and store the data
-            for inp, target in self.calib_loader:
+            
+            for inp_image, inp_text, target in self.calib_loader:
                 for batch_st in range(0,self.calib_loader.batch_size,self.batch_size):
                     self.net.zero_grad()
-                    inp_ = inp[batch_st:batch_st+self.batch_size].cuda()
-                    pred = self.net(inp_)
-                    loss = F.kl_div(F.log_softmax(pred, dim=-1), raw_pred_softmax[batch_st:batch_st+self.batch_size], reduction="batchmean")
+                    #print("inp_image", inp_image.shape)
+                    #print("inp_text", inp_text.shape)
+                    inp_image_ = inp_image[batch_st:batch_st+self.batch_size].cuda()
+                    #inp_text = inp_text[batch_st:batch_st+self.batch_size].cuda()
+                    #print("inp_image before pred", inp_image_.shape)
+                    pred, _ = self.net(inp_image_, inp_text)
+                    #print(F.log_softmax(pred, dim=-1).shape, type(F.log_softmax(pred, dim=-1)))
+                    #print(raw_pred_softmax[batch_st:batch_st+self.batch_size].shape, type(raw_pred_softmax[batch_st:batch_st+self.batch_size]))
+                    loss = F.kl_div(F.log_softmax(pred, dim=-1).sort(descending=True).values[0:4], raw_pred_softmax[batch_st:batch_st+self.batch_size], reduction="batchmean")
                     loss.backward()
-                del inp, target, pred, loss
+                del inp_image, inp_text, target, pred, loss
                 torch.cuda.empty_cache()
             
             # replace cached raw_inputs, raw_outs
             if isinstance(module, MinMaxQuantLinear):
+                print(module.raw_input)
                 module.raw_input = torch.cat(module.raw_input, dim=0)
                 module.raw_out = torch.cat(module.raw_out, dim=0)
             if isinstance(module, MinMaxQuantConv2d):

@@ -29,22 +29,23 @@ def VLLoader(model, preprocess, num = 32):
 
     text_features = model.encode_text(text_input.cuda())
     image_features = model.encode_image(image_input.cuda())
-
-    return image_features, text_features, target
+    
+    return image_input, text_input, target
 
 
 class VLImageDataset(Dataset):
     def __init__(self, image_features, text_features, target):
         self.image_features = image_features
         self.text_features = text_features
+        self.text_features_repeated = self.text_features.repeat(32, 1)
         self.target = target
 
     def __len__(self):
-        return self.text_features.shape[0]
+        return self.image_features.shape[0]
 
     def __getitem__(self, idx):
         image = self.image_features[idx]
-        text = torch.tensor([self.text_features[idx] for x in self.__len__()])
+        text = self.text_features_repeated[idx]
         target = self.target[idx]
         return image, text, target
 
