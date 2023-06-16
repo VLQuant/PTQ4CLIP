@@ -1,0 +1,1203 @@
+[
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000391895.jpg",
+        "captions": [
+            "A man with a red helmet on a small moped on a dirt road.",
+            "Man riding a motor bike on a dirt road on the countryside.",
+            "A man riding on the back of a motorcycle.",
+            "A dirt path with a young person on a motor bike rests to the foreground of a verdant area with a bridge and a background of cloud-wreathed mountains.",
+            "A man in a red shirt and a red hat is on a motorcycle on a hill side."
+        ],
+        "prediction": " traveling motorcycle with maning and working maning on a wet road."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000060623.jpg",
+        "captions": [
+            "A young girl inhales with the intent of blowing out a candle.",
+            "A young girl is preparing to blow out her candle.",
+            "A kid is to blow out the single candle in a bowl of birthday goodness.",
+            "Girl blowing out the candle on an ice-cream",
+            "A little girl is getting ready to blow out a candle on a small dessert."
+        ],
+        "prediction": " birthday cake with a candle licking candlelit face."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000483108.jpg",
+        "captions": [
+            "A man on a bicycle riding next to a train",
+            "A person is riding a bicycle but there is a train in the background.",
+            "a red and white train and a man riding a bicycle",
+            "a guy that is riding his bike next to a train",
+            "A man riding a bike past a train traveling along tracks."
+        ],
+        "prediction": " train with passengers on the front of a station."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000384213.jpg",
+        "captions": [
+            "A kitchen is shown with a variety of items on the counters.",
+            "A kitchen has the windows open and plaid curtains.",
+            "A kitchen with two windows and two metal sinks.",
+            "An older kitchen with cluttered counter tops but empty sink.",
+            "Glasses and bottles are placed near a kitchen sink."
+        ],
+        "prediction": " kitchen with a white and a red fire hydrant on the counter."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000386164.jpg",
+        "captions": [
+            "A wooden ball on top of a wooden stick.",
+            "The table is full of wooden spoons and utensils.",
+            "A wood table holding an assortment of wood cooking utensils.",
+            "A selection of wooden kitchen tools on a counter.",
+            "Wooden spoons are lined up on a table"
+        ],
+        "prediction": " variety of handmade wooden spoon and utensch."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000223648.jpg",
+        "captions": [
+            "Multiple wooden spoons are shown on a table top.",
+            "A table surrounded by chairs and filled with cooking utensils.",
+            "Wooden spoons laid out across a kitchen table.",
+            "Wooden spoons and forks are all over a table.",
+            "A table and chairs with wooden kitchen tools on top."
+        ],
+        "prediction": " selection of wooden serving utensils on a kitchen counter."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000403385.jpg",
+        "captions": [
+            "A bathroom that has a broken wall in the shower.",
+            "A bathroom looks clean but is missing tile at the shower stall.",
+            "A view of a bathroom that needs to be fixed up.",
+            "a shower toilet and sink in a basement bathroom",
+            "A very big whit rest room with a shabby looking shower."
+        ],
+        "prediction": " bathroom with a white and beige umbrella-<|endoftext|>A large passenger jet is parked"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000294832.jpg",
+        "captions": [
+            "A bathroom with an enclosed shower next to a sink and a toilet.",
+            "A clean, spacious bathroom with a large shower stall.",
+            "There are a toilet, a sink, and a shower stall in a large bathroom.",
+            "A bathroom featuring a walk in shower, mirror, sink and toilet.",
+            "Bathroom with a shower, sink, and toilet in it."
+        ],
+        "prediction": " bathroom with a large window and apron and seat."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000462565.jpg",
+        "captions": [
+            "people on bicycles ride down a busy street",
+            "A group of people are riding bikes down the street in a bike lane",
+            "bike riders passing Burger King in city street",
+            "A group of bicyclists are riding in the bike lane.",
+            "Bicyclists on a city street, most not using the bike lane"
+        ],
+        "prediction": " stop sign with a cyclist on the street."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000436141.jpg",
+        "captions": [
+            "The bathroom is clean and ready to be used.",
+            "a small bathroom with a sink and a toilet.",
+            "A toilet, sink and mirror in the bathroom",
+            "Doorway view into bathroom with a sink and toilet.",
+            "A white toilet sitting next to a sink."
+        ],
+        "prediction": " bathroom with a large window and apron on."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000192440.jpg",
+        "captions": [
+            "A clean bathroom is seen in this image.",
+            "A bathroom with a white toilet and large shelf full of stuff.",
+            "some shelves filled with a bunch of different items in the bathroom",
+            "A shelving unit is between a toilet and a bathroom sink.",
+            "A shelf with hygiene products in a bathroom."
+        ],
+        "prediction": " bathroom with a large amount of items in it."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000001146.jpg",
+        "captions": [
+            "A young man wearing black attire and a flowered tie is standing and smiling.",
+            "A man with glasses and his eyes closed dressed in a black shirt and a necktie.",
+            "A man in a green tie with his eyes closed.",
+            "Smiling man wearing black shirt and pale green tie.",
+            "A person that is dressed up very nicely."
+        ],
+        "prediction": " man in tie making funny poses in a mirror."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000559665.jpg",
+        "captions": [
+            "Black and white photograph of two men on motorcycles.",
+            "Two people riding a motorcycle with hats and backpack down a street.",
+            "Two men are at an intersection on motorcycles.",
+            "The man are driving side by side on their motorcycles.",
+            "Two men on motorcycles at a stop light"
+        ],
+        "prediction": " motorcycle rider on a city street with a friend in the car dealership looking on."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000394240.jpg",
+        "captions": [
+            "A row of motorcycles parked in front of a building.",
+            "A bunch of motorcycles parked on the side of the road",
+            "a back ally neighborhood with motor bikes in a row",
+            "A number of motorbikes parked on an alley",
+            "a bunch of motorcycles parked along the side of the street"
+        ],
+        "prediction": " street with a large amount of old and colorful motorcycles."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000491497.jpg",
+        "captions": [
+            "A fluffy white chair that faces away fro a television.",
+            "A pillow covered reading chair in the corner of the living room",
+            "The living room is empty with the television on.",
+            "White ornate seat in nicely decorated room with television.",
+            "A white chair, books and shelves and a tv on in this room."
+        ],
+        "prediction": " Wii sitting room with a picture of a man in a suiting up."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000184791.jpg",
+        "captions": [
+            "A painting of a table with fruit on top of it.",
+            "Painting of oranges, a bowl, candle, and a pitcher",
+            "a painting of fruit and a candle with a vase",
+            "A painting of a candlestick holder with a candle, several pieces of fruit and a vase, with a gold frame around the painting.",
+            "A painting that has a gold frame on it."
+        ],
+        "prediction": " painting vase with oranges and a candle light."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000579664.jpg",
+        "captions": [
+            "Vegetables are displayed in a wooden barrel outdoors.",
+            "A bunch of bananas are sitting on the stand.",
+            "The cart has bananas or plantains piled on it.",
+            "a box of green bananas and a box of ripe bananas",
+            "A large number of green and yellow bananas in wooden containers."
+        ],
+        "prediction": " ripe vendor bananas in a market place."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000550529.jpg",
+        "captions": [
+            "A motorbike sitting in front of a wine display case",
+            "A motor bike and some wine in a room.",
+            "A dirt bike sitting on a counter by some wine bottles.",
+            "a motorcycle standing in front a winery",
+            "A bike sits among bottles of wine on a shelf."
+        ],
+        "prediction": " motorcycle museum with wine and other food on display."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000348881.jpg",
+        "captions": [
+            "A large jetliner sitting on top of an airport runway.",
+            "Airline employees by an aircraft parked at the gate",
+            "The plane is parked at the gate at the airport terminal.",
+            "View from gate of jet connected to jet way for passengers to board or deplane",
+            "A large white airplane and a person on a lot."
+        ],
+        "prediction": " plane boarding with a seat and a large window."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000560623.jpg",
+        "captions": [
+            "An airport filled with planes sitting on tarmacs.",
+            "The view of runway from behind the windows of airport.",
+            "a truck driving towards some planes parked on the runway",
+            "Planes on a wet tarmac unloading at arrival gates.",
+            "Window view from the inside of airplanes, baggage carrier and tarmac."
+        ],
+        "prediction": " airport tarmac with luggage on a rainy day."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000561100.jpg",
+        "captions": [
+            "A small blue plane sitting on top of a field.",
+            "an E2 airplane painted blue with black and white stripes",
+            "An old warplane is on display in a field.",
+            "a blue small plane standing at the airstrip",
+            "Model airplane with an American insignia and stripes on wings."
+        ],
+        "prediction": " fighter jet in a competition race photo<|endoftext|>A small child is shown in a blue"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000354533.jpg",
+        "captions": [
+            "A motorcycle sits parked across from a herd of livestock.",
+            "A motorbike, people and sheep in the background",
+            "A motorcycle parked on top of a sandy beach.",
+            "A motorcycle in the foreground parked in a dirt parking lot",
+            "A multicolored motorcycle rests outside of a sheep farm."
+        ],
+        "prediction": " motorcycle rider in apron drying grass<|endoftext|>A herd of sheep are in a small"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000334321.jpg",
+        "captions": [
+            "A large white dog is sitting on a bench beside an elderly man.",
+            "A large white dog sits on a bench with people next to a path.",
+            "A large dog sits just his bottom on a park bench.",
+            "A dog sitting on a bench next to an old man.",
+            "A couple of people sitting on a bench next to a dog."
+        ],
+        "prediction": " living room dog riding on a carriage with a man in a suit and a tie"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000368117.jpg",
+        "captions": [
+            "A couple of traffic lights sitting under a cloudy sky.",
+            "a street light has the red lights glowing",
+            "The traffic lights are clearly visible for all of us to see.",
+            "a pole with a stop lights attached to it",
+            "two sets of street lights attached to a pole"
+        ],
+        "prediction": " intersection with a stop sign on a light."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000165547.jpg",
+        "captions": [
+            "An eating area with a table and a few chairs.",
+            "Table situated in corner of room with a vase for a center piece",
+            "A wooden table sitting below a bunch of windows.",
+            "A dining room table next to windows overlooking woods",
+            "A wooden dining table is surrounded by windows."
+        ],
+        "prediction": " cabin with a window and a large white t."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000455859.jpg",
+        "captions": [
+            "A little girl in a pink shirt standing near a blue metal sculpture.",
+            "People are standing outside in a busy city street.",
+            "Woman taking a picture of someone standing behind a sculpture and a child pushing another woman towards the sculpture.",
+            "People in a inner city courtyard watching a performance.",
+            "A woman snaps a photo of people having fun in the courtyard."
+        ],
+        "prediction": " crowd with a picture of a cyclist on a ramp with a man on the ramp"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000290570.jpg",
+        "captions": [
+            "A herd of sheep standing on top of snow covered field.",
+            "Several sheep grazing in a field of tall grass in front of a building.",
+            "Group of sheep and mountain out front of old house.",
+            "A flock of sheep standing around in the middle of a pen.",
+            "Sheep are grazing in a snow dusted field."
+        ],
+        "prediction": " farm sheep with cottage in background in winter setting."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000281455.jpg",
+        "captions": [
+            "A flock of small birds flying in the sky over the water.",
+            "Several birds that are flying together over a body of water.",
+            "A flock of birds flying over a field.",
+            "A black and white image showing birds flying over a body of water.",
+            "A group of birds flying over the water"
+        ],
+        "prediction": " bird boat in flight and a cloudy sky."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000017756.jpg",
+        "captions": [
+            "A swan is floating down the river by the boat.",
+            "A boat with flags and tents is docked next to a grassy bank.",
+            "A boat that is decorated with flags on the water.",
+            "a parked boat with some items inside of it",
+            "A large red boat sitting next to a lush green shore."
+        ],
+        "prediction": " boat with decorations on in the shape of a tent."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000305821.jpg",
+        "captions": [
+            "A giraffe grazing on a tree in the wilderness with other wildlife",
+            "Several giraffes eating leaves from the ground and tree.",
+            "Two giraffes and another animal in a field.",
+            "Several giraffe eating the leaves from neighboring trees.",
+            "Giraffes are feeding on the trees and grass."
+        ],
+        "prediction": " giraffe in the wild with other animals in the background."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000459374.jpg",
+        "captions": [
+            "there are blue lights shining threw palm trees",
+            "A fire hydrant pouring water from it with a neon blue glow to it.",
+            "Reflections of light streaming thru a building window at night.",
+            "a fire hydrant on a city street",
+            "A yellow fire hydrant that is on the side of the street."
+        ],
+        "prediction": " street light on a city street."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000208589.jpg",
+        "captions": [
+            "A bird in a pot eating a fruit.",
+            "a black bird is eating an apple in a pot of dirt",
+            "there is a black bird standing in a flower pot eating an apple",
+            "A bird in a flower pot eating an apple",
+            "A black bird sits in a flower boy."
+        ],
+        "prediction": " meal in birdbath with a white and green tooth brush."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000358342.jpg",
+        "captions": [
+            "A tall massive clock tower towering over a city.",
+            "A couple of street signs hanging on a pole",
+            "An old black and white photo of Pennsylvania Avenue.",
+            "A large stately building is adorned with steeple and a tower.",
+            "The large ornate building with the clock tower and cupolas sits on the Pennsylvania Avenue and 11th St."
+        ],
+        "prediction": " downtown Washington area clock tower with a sign on the clock."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000074711.jpg",
+        "captions": [
+            "Two ducks floating together on a body of water.",
+            "Two ducks are swimming in the green colored pond.",
+            "Two Canadian geese swim in a green pond.",
+            "Two ducks swim in a pond with green water.",
+            "Two swam swimming next to each other on a lake."
+        ],
+        "prediction": " pair of two birds on a small pond."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000058636.jpg",
+        "captions": [
+            "A large wooden pole with a green street sign hanging from it.",
+            "street signs on the corner of Gladys and Detroit",
+            "The signs give the street names and show where to park.",
+            "A wooden utility pole sports several street signs.",
+            "The street signs for Gladys and Detroit streets are attached to a wooden pole."
+        ],
+        "prediction": " sign yard with a pole and a sign on a metal post."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000197461.jpg",
+        "captions": [
+            "a ram is looking at the camera and standing on some grass",
+            "A large sheep bends his head towards some grass",
+            "A very large sheep is standing in the grass.",
+            "A sheep looks at the camera, by the side of the road.",
+            "A woolly sheep stands in the grass looking at the camera."
+        ],
+        "prediction": " sheep in a park with a blurry background and a steeple."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000165029.jpg",
+        "captions": [
+            "A man with a snowboard next to a man with a mask.",
+            "Man with snowboard standing next to another wearing a mask and crazy hands.",
+            "A man holding a snowboard next to a man in scary costume.",
+            "A man wearing a mask with a sbowboarder.",
+            "Snowboarder holding a pink board being hugged by man in costume."
+        ],
+        "prediction": " skateboarder in a costume cutting a man's skateboard."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000336777.jpg",
+        "captions": [
+            "Many different signs cover a post next to a bus stop.",
+            "A bus stop with advertising signs attached to a pole nearby.",
+            "Street signs clutter a pole on an empty street.",
+            "A street signs and board at a road junction near a building",
+            "Many posters are placed on the pole across the street from houses."
+        ],
+        "prediction": " courthouse with a sign on the front pointing to the city."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000472795.jpg",
+        "captions": [
+            "A cow standing near a curb in front of a store.",
+            "There is a cow on the sidewalk standing in front of a door.",
+            "A cow on the sidewalk on a corner in front of a store",
+            "Cow standing on sidewalk in city area near shops.",
+            "A cow on a city sidewalk in front of a business."
+        ],
+        "prediction": " cattle crossing with a street vendor in the background."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000182784.jpg",
+        "captions": [
+            "The animal is standing by the booth at the event.",
+            "A brown cow standing next to a store with lots of water.",
+            "A cow is standing in front of a shop.",
+            "A bull standing in front of a street vendor .",
+            "a brown and white ox a motorcycle and a shop"
+        ],
+        "prediction": " cow selling food truck signs a mannequin."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000458052.jpg",
+        "captions": [
+            "a cat that is eating some kind of banana",
+            "A person feeding a cat with a banana",
+            "A house cat is taking a bite from a banana.",
+            "A cat eating a banana from someone's hand",
+            "A cat feeding on a banana with a person feeding it to it."
+        ],
+        "prediction": " banana with a dog looking like a monster."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000026942.jpg",
+        "captions": [
+            "A gray tiger cat sitting at a wooden table on a chair.",
+            "A grey cat sitting in chair next to a table.",
+            "A cat sitting in a chair pulled up to a table.",
+            "A cat sitting in a chair at a table with a book on it.",
+            "A cat sitting in a chair by a table."
+        ],
+        "prediction": " cat looking at table with a large amount of food on a plate plate with a"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000418281.jpg",
+        "captions": [
+            "two cows outside one laying down and the other standing near a building",
+            "The white scared cow in a Tibetan city.",
+            "A cow standing in a grassy open field.",
+            "A herd of cattle sitting and standing on a lush green field.",
+            "There white cows in grassy area with temples in background."
+        ],
+        "prediction": " rural area with sheep and elephants in the middle."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000535292.jpg",
+        "captions": [
+            "Two cows grazing on grass in a field by a house.",
+            "A white faced cow stands in the tall grass.",
+            "Cows standing in a grassy meadow in front of a house.",
+            "a cow in a field near trees and bushes",
+            "a cow stands in the grassy area of a yard"
+        ],
+        "prediction": " cow in a hedge- enclosure with a fence and a small tree-lined area"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000085329.jpg",
+        "captions": [
+            "An image of a very cute girl with face piercings.",
+            "Painting of girl that has multiple piercings on face",
+            "A young brunette woman with multiple face piercings.",
+            "A young woman with green eyes and piercings all over her face.",
+            "A drawing of a young woman with many facial piercings."
+        ],
+        "prediction": " girl in a sl black and red hair."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000451872.jpg",
+        "captions": [
+            "Several elephants are in a habitat as heads are in the foreground.",
+            "A small gray elephant  standing in an exhibit at a zoo.",
+            "People are watching four elephants in a zoo.",
+            "Several elephants in zoo enclosure with onlookers watching.",
+            "An elephant in a zoo stands in front of the crowd."
+        ],
+        "prediction": " elephant exhibit in a large open area area."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000314294.jpg",
+        "captions": [
+            "An elephant standing under the shade of a tree.",
+            "An elephant standing in the middle of a rocky environment.",
+            "An elephant is alone in a wooded enclosure.",
+            "An elephant standing in a shaded cleaning in a wooded area.",
+            "An elephant walks alone past some big rocks boulders in an open field"
+        ],
+        "prediction": " elephant with a baby in a fenced area."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000516750.jpg",
+        "captions": [
+            "Two kayaks, one pink the other yellow, on bank of water.",
+            "Two kayaks rest on the shore of a body of water.",
+            "Two kayaks sitting on the shore of a body of water.",
+            "Two kayaks are shown on the shore.",
+            "Two kayaks are sitting on a river bank empty."
+        ],
+        "prediction": " boat with a paddle in the water and a large amount of small boats in the"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000069946.jpg",
+        "captions": [
+            "A blue boat docked on a green lush shore.",
+            "A  small marina with boats docked there",
+            "a group of boats sitting together with no one around",
+            "Some boats parked in the water at a dock",
+            "boats sitting around the side of a lake by a tree"
+        ],
+        "prediction": " city with boats and a park in the background."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000109005.jpg",
+        "captions": [
+            "An elephant and a rhinoceros stand not far from each other.",
+            "A rhino is near an elephant near a water hold in the forest.",
+            "An elephant and a rhinoceros share a field with a pond.",
+            "An elephant and a rhino are grazing in an open wooded area.",
+            "An elephant walking not to far from a rhino in a forest."
+        ],
+        "prediction": " elephant in a habitat area of a small town area."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000553442.jpg",
+        "captions": [
+            "A woman embracing a child carrying a bag of luggage.",
+            "Woman hugging a small girl with green and blue luggage.",
+            "A woman hugging a girl who is holding a suitcase.",
+            "A woman with her arms around a girl who's holding a suitcase.",
+            "An adult and child standing with a suitcase."
+        ],
+        "prediction": " trainee traveling with family looking happy and smiling."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000261779.jpg",
+        "captions": [
+            "A pinup-style photo of a woman sitting on a luggage trunk.",
+            "A women is waiting while sitting on a large trunk",
+            "a woman shades her eyes while sitting on a chest",
+            "A woman sits on a luggage case on a sidewalk.",
+            "A woman sitting on a trunk wearing a polka dot dress with a red belt."
+        ],
+        "prediction": " vintage dresser scene in a dress shop."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000198448.jpg",
+        "captions": [
+            "A woman sitting on a piece of luggage in a field.",
+            "a woman sits on a brief case in the woods",
+            "A girl with a lot of tattoos sitting on a a piece of luggage.",
+            "A woman with lots of tattoos sits on a suitcase in a forest.",
+            "Lady with arm full of tattoos sitting on her suitcase."
+        ],
+        "prediction": " young woman in winter setting with a pair of skisis inked."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000329717.jpg",
+        "captions": [
+            "Young boy sitting on top of a briefcase",
+            "A young baby sits on top of a briefcase.",
+            "A little boy sitting on a suitcase on the floor.",
+            "A small child sitting on top of a briefcase.",
+            "A toddler boy is sitting on a brief case."
+        ],
+        "prediction": " child sitting in a small holding case with a small hole in the back."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000341393.jpg",
+        "captions": [
+            "A golden retriever laying down on the side of a pool.",
+            "A large brown dog laying next to a blue pool.",
+            "A golden retriever sleeps at the edge of the pool.",
+            "A swimming pool in a yard that has a cinderblock wall all the way around it and a dog sitting at the edge of the pool.",
+            "A dog laying down next to a pool in a backyard."
+        ],
+        "prediction": " beach pool dog in a residential area."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000299319.jpg",
+        "captions": [
+            "Two women walking side by side holding umbrellas.",
+            "an image of two girls walking with umbrellas",
+            "Two girls are each carrying an umbrella walking.",
+            "Two young girls walking in front of a building, holding umbrellas.",
+            "A couple of kids walking with umbrellas in their hands."
+        ],
+        "prediction": " city street couple of rainy clothespans."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000288955.jpg",
+        "captions": [
+            "Shaggy dog gets dinner served on a plate.",
+            "A small black dog standing over a plate of food.",
+            "A small dog eating a plate of broccoli.",
+            "A black dog being given broccoli to eat.",
+            "There is a dog staring at a plate of food"
+        ],
+        "prediction": " meal on a dog with a green apple in a bowl of a kitchen."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000426578.jpg",
+        "captions": [
+            "A person on the beach next to the ocean.",
+            "there is a man that is running in the sand on a beach",
+            "A man in a wetsuit running on the beach.",
+            "A person is running on a clear, flat beach.",
+            "A person running a long a beach when it is almost empty."
+        ],
+        "prediction": " beach runner with a large body of water."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000064710.jpg",
+        "captions": [
+            "a person and a dog are standing near some cliffs",
+            "A person walks with a backpack being followed by a dog.",
+            "A hiker and dogs are walking in a canyon.",
+            "A person walks along on a patch of sand near some rocks.",
+            "A person walking across a desert filled surrounded by mountains."
+        ],
+        "prediction": " road with dog and toddler in the canyon."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000180447.jpg",
+        "captions": [
+            "A close up of a zebra foraging on some grass",
+            "A zebra grazing on long dry grass in a field.",
+            "THERE IS A BLACK AND WHITE IMAGE OF A ZEBRA EATING GRASS",
+            "A zebra grazes on grass in a grassy field.",
+            "A black and white photograph of a zebra grazing."
+        ],
+        "prediction": " giraffe standing in a fenced area with a tree and a gir."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000075162.jpg",
+        "captions": [
+            "A zebra is standing outside in the snow",
+            "One zebra standing in snow near a stone wall.",
+            "A zebra is standing in a snowy field.",
+            "A zebra stands in snow in front of a wall.",
+            "A zebra standing alone in the snow with a stone block wall and wooden fence behind it."
+        ],
+        "prediction": " giraffe in a striped striped shirt with a black headdress."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000516316.jpg",
+        "captions": [
+            "An antilope is eating grass in between two zebra.",
+            "Several zebras eat the green grass in the pasture.",
+            "Two zebras and another animal grazing in the grass.",
+            "Three zebra in the middle of a field with a body of water in the distance.",
+            "Three Zebra's eating grass as they walk."
+        ],
+        "prediction": " herd of wildebe in a large open area area."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000562121.jpg",
+        "captions": [
+            "Two zebras fighting in a cloud of dust",
+            "Two zebras fighting in a open area with green bushes.",
+            "Two zebras are battling each other on hind legs.",
+            "Two zebra having a fight on top of a dry grass field.",
+            "Two zebras in a jungle area fighting in a dirt area."
+        ],
+        "prediction": " herd of zebra in a fenced area with a man in a field."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000129637.jpg",
+        "captions": [
+            "Horse figurines next to walk on a table.",
+            "A set of three different plastic horse figurines.",
+            "Three different horse figurines are placed beside each other.",
+            "Three plastic horse figurines standing next to each other on a shelf.",
+            "Three model horses on a table in front of a pegboard backdrop."
+        ],
+        "prediction": " horse model show in a large group of different colors and sizes."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000444444.jpg",
+        "captions": [
+            "A woman standing in front of a brown horse.",
+            "A young woman in a leather coat about to pet a horse",
+            "A woman is standing next to a black and white horse.",
+            "A woman is feeding a horse at a ranch.",
+            "a woman going to touch a horse in a field"
+        ],
+        "prediction": " horse being observed by a camera person in a house."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000503005.jpg",
+        "captions": [
+            "A man riding a horse with trees and buildings in background.",
+            "A rider gallops on his horse in the grass.",
+            "A horseback rider is somewhat in the background of the field.",
+            "A man riding a horse during a jumping competition.",
+            "A person on a horse on a field with a building in the background."
+        ],
+        "prediction": " baseball player riding a horse show."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000316795.jpg",
+        "captions": [
+            "A man in black leading an all white horse",
+            "Mythical character with white horse standing on grooved surface.",
+            "A white horse with blue haunches stands next to an elegantly dressed, black-haired man holding a sword.",
+            "A person with a horse and a sword.",
+            "a couple of small figures of a man and a horse"
+        ],
+        "prediction": " scene from the movie The Legend of Korra."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000375840.jpg",
+        "captions": [
+            "A try with a banana and two oranges visible on it",
+            "Banana and oranges on a lunch try next to bowls.",
+            "a white tray with a banana and two tangerines and a plate and bowl",
+            "A banana sits by two oranges, a bowl and a white plate on a white tray.",
+            "a banana and two oranges sit on a tray next to a bowl and a plate"
+        ],
+        "prediction": " breakfast of fresh fruit and a small plane."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000147980.jpg",
+        "captions": [
+            "A group of children playing baseball out side.",
+            "Group of children with baseball gloves throwing balls back and forth.",
+            "Some children are playing softball on a field.",
+            "this is a group of children playing baseball",
+            "A group of kids that are standing in the grass."
+        ],
+        "prediction": " baseball practice with a player in a red and white uniformed fans."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000034180.jpg",
+        "captions": [
+            "A person wearing a banana headdress and necklace",
+            "A lady dressed in a blue and purple outfit wearing a hat made of fruit.",
+            "A person wearing a hat made out of yellow bananas.",
+            "Person with bananas on head and banana necklace.",
+            "A woman wears a hat that is made of bananas"
+        ],
+        "prediction": " Mexican tourist with a banana wig on a tourist outfit."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000169802.jpg",
+        "captions": [
+            "A man in hat made of bananas standing in room by men.",
+            "A man wearing a colorful outfit and a hat made of bananas.",
+            "A man that has bananas on his head and shoulders.",
+            "a man wearing a plastic banana hat and necklace",
+            "A smiling guy with a very funny looking hat of bananas."
+        ],
+        "prediction": " young performer in costume with a smile on his face maska red and a smile"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000430961.jpg",
+        "captions": [
+            "A baseball player preparing to throw a pitch during a game.",
+            "A man that is standing in the dirt with a glove.",
+            "A baseball player lunges and reaches back with the ball.",
+            "A baseball player pitching a baseball on top of a field.",
+            "A man in a Rays uniform is throwing a baseball"
+        ],
+        "prediction": " pitcher swinging a baseball on a mound with a smile on his face."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000570465.jpg",
+        "captions": [
+            "Several slices of bread with side salads on a table.",
+            "A table with a plate of cut pizza, two plates of salad, and a can of soda.",
+            "Three plates of food consisting of pizza, salads, rice and a can of cola",
+            "Several plates of food including fried dough and salads.",
+            "A meal containing soda, salad pizza and rice on a table."
+        ],
+        "prediction": " meal with a variety of different types of pastries."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000356708.jpg",
+        "captions": [
+            "A man riding skis on top of a snow covered slope.",
+            "An adult and child standing in the snow wearing jackets.",
+            "A man and little girl are on skis in the snow.",
+            "A man and a child skiing on a snowy plain.",
+            "a person riding skis on a snowy surface"
+        ],
+        "prediction": " skiing lesson with a child in the snow."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000362368.jpg",
+        "captions": [
+            "A small boy holding a plate of tasty looking food.",
+            "Boy holding bowl of ice cream sundae up",
+            "A child holding up a red plate full of foo.",
+            "A young man holding a pale of sweet treats.",
+            "A boy showing off a bowl with an ice cream sundae."
+        ],
+        "prediction": " dessert being collected in a child's kitchen."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000216228.jpg",
+        "captions": [
+            "A girl is skateboarding down the Hollywood walk of fame.",
+            "A woman who is skateboarding down the street.",
+            "A woman with glasses and a scarf skateboards along Hollywood's Walk of Fame.",
+            "lady in front of a store standing on a pink skateboard",
+            "A woman is riding her skate board down the sidewalk."
+        ],
+        "prediction": " pedestrian with a sign on a skateboard park<|endoftext|>A man is shown in a"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000448365.jpg",
+        "captions": [
+            "Youngster on a skateboard, trying simple tip up stunt.",
+            "Young skateboarder displaying skills on sidewalk near field.",
+            "A person on a skateboard on a street.",
+            "A young boy is performing tricks on a skateboard.",
+            "a little boy that is jumping a skateboard"
+        ],
+        "prediction": " skateboarder in a red and white striped shirt and a jump."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000472854.jpg",
+        "captions": [
+            "Two men on skateboards on  the pavement",
+            "Two young skateboarders are skating near each other.",
+            "Two young men riding skateboards on a sidewalk.",
+            "There are two men riding on their skateboards",
+            "A man and a boy traveling on skateboards."
+        ],
+        "prediction": " skateboarder in a child's first-person viewable pose."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000127451.jpg",
+        "captions": [
+            "Two men riding snowboards in a snow storm down a slope.",
+            "Two people are snowboarding down a hill fast",
+            "Two men use their snowboards to go down a snowy incline.",
+            "two snow boarders skiing down a mountain",
+            "Two men snow boarding and laughing together on the mountain"
+        ],
+        "prediction": " skiing lesson being displayed with instructor and instructor's hand."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000299116.jpg",
+        "captions": [
+            "A little girl posing for a picture while eating food.",
+            "Little girl smiles for the camera as she eats her sandwich",
+            "A young girl smiles while enjoying her meal.",
+            "An Asian child eating a hot dog sitting at a table.",
+            "A girl eating a hotdog at a wooden table."
+        ],
+        "prediction": " Asian girl eating a large sized piece of white chocolate cake with a fork."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000066412.jpg",
+        "captions": [
+            "A young boy holding a snow board and a pair of shoes.",
+            "A boy is holding his shoes and a snowboard.",
+            "A guy smiling, wearing a blue jacket, holding a snowboard.",
+            "A young man looks delighted with his shiny snowboard.",
+            "Getting geared up to do a little snow boarding."
+        ],
+        "prediction": " passenger jet on a laptop bag on a back pack."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000410002.jpg",
+        "captions": [
+            "Assortment of doughnuts and other snack items on a serving tray.",
+            "there are many different sweets and donuts on display",
+            "A display case at a bakery with different items.",
+            "A glass bakery case with pastries and several kinds of doughnuts.",
+            "Donuts and pastries sit on trays in a store."
+        ],
+        "prediction": " bakery with a variety of items in the box."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000507065.jpg",
+        "captions": [
+            "A little boy sitting on a wooden bench eating half a sandwich.",
+            "a small boy with a green shirt is eating a sandwich",
+            "A young boy sitting on a bench with a sandwich.",
+            "A little boy holding half a sandwich in each hand.",
+            "A boy is holding a sandwich up to his face."
+        ],
+        "prediction": " lunch sitting on a white platter."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000415746.jpg",
+        "captions": [
+            "Muffins and other pastries on display ground and purchase",
+            "a bunch of baked goods in a plastic shelf",
+            "a bunch of pastries that are in a clear case",
+            "Various muffins and pastries on trays inside plastic cabinets",
+            "Various muffins and pastries lined up in plastic cabinets",
+            "Different types of types of pastries sitting on display together."
+        ],
+        "prediction": " bakery display with a large white frosting maker."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000071171.jpg",
+        "captions": [
+            "A meal at a restaurant of a salad, a toasted sandwich and a pickle",
+            "A plate of food containing a sandwich and a salad.",
+            "A grilled cheese sandwich with a side of salad and a pickle",
+            "A plate with a sandwich and a pickle",
+            "there is a sandwich and lettuce on a plate"
+        ],
+        "prediction": " sandwich with a side of a pickle and a side of salad."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000292301.jpg",
+        "captions": [
+            "A table with a coffee and a salad on it.",
+            "A deli lunch for two on a table with drinks",
+            "A sandwich wrapped in a bag, a to-go coffee cup and a drink sits on top of a white table.",
+            "A sandwich and two coffees sitting on a table.",
+            "In-flight meal of a bagged sandwich and drinks"
+        ],
+        "prediction": " lunch that includes a laptop and a paper bag."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000550627.jpg",
+        "captions": [
+            "A bunch of doughnuts with sprinkles on them",
+            "Tray of chocolate donuts with sprinkles in a display case.",
+            "Donuts on a tray in a display case",
+            "A display of yummy looking chocolate covered donuts with sprinkles.",
+            "A tray full of sprinkle covered, chocolate glazed doughnuts."
+        ],
+        "prediction": " doughnut display on a large display of donuts."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000244339.jpg",
+        "captions": [
+            "A basket ball player is posing in front of a basket.",
+            "A uniformed boy is holding a basketball with his back to the hoop.",
+            "A young man in a green jersey is holding a ball.",
+            "A basketball player holds a basketball for a picture.",
+            "A person with a basketball stands in front of a goal."
+        ],
+        "prediction": " player in a professional baseball game with a baseball mittent green and white."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000284350.jpg",
+        "captions": [
+            "A woman standing in a set suit on a beach holding a surfboard.",
+            "Woman wearing all black holding up a white surfboard.",
+            "A female surfboarder dressed in black holding a white surfboard.",
+            "a woman wearing a wet suit is holding a white surfboard",
+            "Surfer on a black sand beach holding her board"
+        ],
+        "prediction": " surfboard instructor on the beach with a large black board."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000309120.jpg",
+        "captions": [
+            "A man getting ready to kick a soccer ball.",
+            "A man that is on a soccer field with a ball.",
+            "A man carrying a soccer ball down a field.",
+            "there is a man running on a field with a soccer ball",
+            "The soccer player is bringing back the ball into play."
+        ],
+        "prediction": " player in a professional baseball game with a soccer ball."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000467477.jpg",
+        "captions": [
+            "Young boy riding large breaking wave in open ocean.",
+            "THIS IS A BLACK AND WHITE PHOTO OF A SURFER",
+            "The surfer in the black and white photo is on a huge wave.",
+            "A child rides a wave on a surfboard.",
+            "A young child catching a wave while surfing."
+        ],
+        "prediction": " surfboarder in a small boat-like boat-like area of water."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000154971.jpg",
+        "captions": [
+            "A man kicking a soccer ball whle standing on a field.",
+            "A man kicking a soccerball at a group of people on a field.",
+            "A group of men are playing soccer on a field.",
+            "There are two soccer teams playing a game on the field",
+            "four soccer players in white uniforms one in orange"
+        ],
+        "prediction": " soccer game with a player swinging apron<|endoftext|> <-pad->  a fire hydrant is spraying"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000295837.jpg",
+        "captions": [
+            "A woman standing over a pan filled with food in a kitchen.",
+            "A woman smiling while she prepares a plate of food.",
+            "a smiling woman standing next to a plate of food she made",
+            "A woman in a bright pink summer shirt smiles and displays a party platter she has made.",
+            "a person standing in front of a counter top and a tall pile of food"
+        ],
+        "prediction": " chef preparing a delicious meal with a colorful dress."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000321214.jpg",
+        "captions": [
+            "A baby in plaid shirt eating a frosted cake.",
+            "The young is enjoying his cake so much its all over him.",
+            "A toddler eats cake with his hands in his high chair.",
+            "A toddler is getting messy while eating his cake.",
+            "Baby boy at the table eating cake frosting off his hand."
+        ],
+        "prediction": " birthday with a banana and a chocolate cake."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000224757.jpg",
+        "captions": [
+            "A man instructing a group of kids on a soccer field.",
+            "A soccer coach is instructing the children on the field.",
+            "A group of young children standing around a field.",
+            "Dad coaches talking to the little soccer team players on the field",
+            "Pair of adult males with group of small children with soccer balls."
+        ],
+        "prediction": " game in progress player players playing a game of soccer<|endoftext|><|endoftext|>A man in a"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000182245.jpg",
+        "captions": [
+            "Man sitting at a small table behind a pizza.",
+            "A man sitting at a table with lots of food in front of him.",
+            "Friends about to enjoy fresh pizza and coffee at a restaurant",
+            "The Asian man is deciding what to eat on the plate.",
+            "A man sits at the table with a large pizza on it."
+        ],
+        "prediction": " pizza with a person in a black and white shirt eating a large red and white"
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000199551.jpg",
+        "captions": [
+            "A picture of a young boy laying on top of a bed.",
+            "Boy sleeping with no blanket in a large bed.",
+            "A young boy sleeping on the side of his bed.",
+            "A young boy sleeping on floral printed sheets",
+            "A boy asleep on a large bed under a mosquito net"
+        ],
+        "prediction": " child sleeping in a small room bed."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000239347.jpg",
+        "captions": [
+            "A picture of a recently married couple displayed behind glass.",
+            "A photo of a man and his wife on a bed",
+            "A picture of a couple that just got married lying in a bed.",
+            "The picture of the couple in bed is displayed in the large window.",
+            "a man and a woman are laying in a bed"
+        ],
+        "prediction": " photo with a bed and a canopy on a wall."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000353830.jpg",
+        "captions": [
+            "An Italian dish is presented on a white plate.",
+            "Baked pizza with red tomatoes and green olives.",
+            "A plate of food cut into slices has onions and olives on it.",
+            "a pizza sliced in four slices on a plate",
+            "ONIONS, TOMATOES AND OLIVES ATOP A PLATE ON A TABLE"
+        ],
+        "prediction": " pizzasita with a variety of toppings and a white sauce."
+    },
+    {
+        "split": "test",
+        "image_name": "COCO_val2014_000000301102.jpg",
+        "captions": [
+            "the two racquets are close to being identical.",
+            "a bunch of tennis rackets are tangles together",
+            "a couple of tennis rackets are laying together",
+            "Two tennis rackets next to each other on a table.",
+            "One tennis racket is place on top of the other one."
+        ],
+        "prediction": " tennis pink pair on a white surface."
+    }
+]
