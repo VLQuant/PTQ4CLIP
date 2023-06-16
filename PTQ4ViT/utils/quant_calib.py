@@ -243,19 +243,19 @@ class HessianQuantCalibrator(QuantCalibrator):
             hooks = []
             if isinstance(module, MinMaxQuantLinear):
                 hooks.append(module.register_forward_hook(linear_forward_hook))
+                
             if isinstance(module, MinMaxQuantConv2d):
                 hooks.append(module.register_forward_hook(conv2d_forward_hook))
             if isinstance(module, MinMaxQuantMatMul):
                 hooks.append(module.register_forward_hook(matmul_forward_hook))
             if hasattr(module, "metric") and module.metric == "hessian":
                 hooks.append(module.register_backward_hook(grad_hook))
-            
             # feed in calibration data, and store the data
             for inp, target in self.calib_loader:
                 for batch_st in range(0,self.calib_loader.batch_size,self.batch_size):
                     self.net.zero_grad()
                     inp_ = inp[batch_st:batch_st+self.batch_size].cuda()
-                    pred = self.net(inp_)
+                    pred, _ = self.net(inp_)
                     loss = F.kl_div(F.log_softmax(pred, dim=-1).sort(descending=True).values[0:4], raw_pred_softmax[batch_st:batch_st+self.batch_size], reduction="batchmean")
                     loss.backward()
                 del inp, target, pred, loss
@@ -317,35 +317,32 @@ class HessianQuantCalibrator(QuantCalibrator):
 
         # assume wrapped modules are in order (true for dict in python>=3.5)
         q = tqdm(self.wrapped_modules.items(), desc="Hessian")
-        for name, module in q:
-            print(name, module)
+        for i, (name, module) in enumerate(q):
+            # if(isinstance(module, MinMaxQuantLinear) and "out_proj" in name): continue
             q.set_postfix_str(name)
 
             # add fp and bp hooks to current modules, which bypass calibration step 1
             # precedent modules are using quant forward
             hooks = []
+            # print(module)
             if isinstance(module, MinMaxQuantLinear):
+                # print("Registering")
                 hooks.append(module.register_forward_hook(linear_forward_hook))
+                # print("registered")
             if isinstance(module, MinMaxQuantConv2d):
                 hooks.append(module.register_forward_hook(conv2d_forward_hook))
             if isinstance(module, MinMaxQuantMatMul):
                 hooks.append(module.register_forward_hook(matmul_forward_hook))
             if hasattr(module, "metric"):
-                hooks.append(module.register_backward_hook(grad_hook))
-            
+                hooks.append(module.register_backward_hook(grad_hook))  
+            # print(name, module._forward_hooks)
             # feed in calibration data, and store the data
             
             for inp_image, inp_text, target in self.calib_loader:
                 for batch_st in range(0,self.calib_loader.batch_size,self.batch_size):
                     self.net.zero_grad()
-                    #print("inp_image", inp_image.shape)
-                    #print("inp_text", inp_text.shape)
                     inp_image_ = inp_image[batch_st:batch_st+self.batch_size].cuda()
-                    #inp_text = inp_text[batch_st:batch_st+self.batch_size].cuda()
-                    #print("inp_image before pred", inp_image_.shape)
                     pred, _ = self.net(inp_image_, inp_text)
-                    #print(F.log_softmax(pred, dim=-1).shape, type(F.log_softmax(pred, dim=-1)))
-                    #print(raw_pred_softmax[batch_st:batch_st+self.batch_size].shape, type(raw_pred_softmax[batch_st:batch_st+self.batch_size]))
                     loss = F.kl_div(F.log_softmax(pred, dim=-1).sort(descending=True).values[0:4], raw_pred_softmax[batch_st:batch_st+self.batch_size], reduction="batchmean")
                     loss.backward()
                 del inp_image, inp_text, target, pred, loss
@@ -353,7 +350,6 @@ class HessianQuantCalibrator(QuantCalibrator):
             
             # replace cached raw_inputs, raw_outs
             if isinstance(module, MinMaxQuantLinear):
-                print(module.raw_input)
                 module.raw_input = torch.cat(module.raw_input, dim=0)
                 module.raw_out = torch.cat(module.raw_out, dim=0)
             if isinstance(module, MinMaxQuantConv2d):

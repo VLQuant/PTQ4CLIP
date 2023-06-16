@@ -30,7 +30,7 @@ class MinMaxQuantLinear(nn.Linear):
         self.a_qmax=2**(self.a_bit-1)
         self.bias_correction = bias_correction
 
-    def forward(self, x):
+    def forward(self, x): 
         if self.mode=='raw':
             out=F.linear(x, self.weight, self.bias)
         elif self.mode=="quant_forward":
