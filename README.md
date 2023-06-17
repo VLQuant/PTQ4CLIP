@@ -1,3 +1,4 @@
 # PTQ4CLIP
 
-# Quantization
+## Abstract
+Quantization is an effective technique for compressing neural networks. However, applying quantization on vision-language models is under-explored. This is because the vision-language models are more sensitive to post-training quantization due to uneven activation distributions. Our work helps with the analysis and effective implementation of post-training quantization on the Vision-Language model (CLIP). Our post-training quantization analysis is carried out by various methods ranging from basic quantization on CLIP to applying twin uniform quantization and using Hessian guided metric to find the scaling factors for activations and weights for every layer respectively. We will also use five vision-language tasks as benchmarks to further analyze and evaluate the post-training quantization of the CLIP model. Our experiments show the quantized CLIP achieves a near loss-less prediction accuracy (for 8-bit quantization) on the ImageNet Classification task.
